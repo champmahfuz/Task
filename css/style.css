@@ -78,6 +78,14 @@ flex-wrap: wrap;
 justify-content: center;
 
 }
+
+.service-testimonial-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -300px;
+  
+  }
 .testimonial-col{
   flex: 33.33%;
   max-width: 33.33%;
@@ -289,5 +297,11 @@ margin-bottom: 20px;
 
 .banner-container .banner .women img{
   width:100%;
+}
+
+@media (max-width:768px){
+  .banner-container .banner .women{
+      display: none;
+  }
 }
 /* banner ends */
