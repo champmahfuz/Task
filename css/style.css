@@ -34,4 +34,21 @@
   margin-top: -48px;
   position: relative;
   z-index: 1 !important;
+ 
+}
+
+.hero-next-title{
+  margin-top: 10px;
+}
+
+.hero-next-title-button{
+  margin-top: -5px;
+}
+
+.hero-insurence{
+  display: flex;
+}
+
+.hero-insurence h1{
+  color: rgba(128, 255, 0, 0.644);
 }
