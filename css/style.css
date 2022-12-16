@@ -390,3 +390,9 @@ body {
   }
 }
 /* banner ends */
+
+@media only screen and (max-width: 480px) {
+  .advantage-right-card {
+    flex-direction: column;
+  }
+}
