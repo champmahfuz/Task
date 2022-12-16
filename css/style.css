@@ -238,7 +238,7 @@ margin-bottom: 20px;
  .banner{
   /* background:linear-gradient( #78c0aa 29%, #30cbd6 29.1%, #3086d6 68%, #8e75ff 68.1%); */
   background: linear-gradient(to bottom, #003366 0%, #006666 100%);
-  border-radius: 5px;
+  border-radius: 10px;
   margin:10px;
   display: flex;
   align-items: center;
@@ -252,7 +252,7 @@ margin-bottom: 20px;
  .banner1{
   /* background:linear-gradient( #78c0aa 29%, #30cbd6 29.1%, #3086d6 68%, #8e75ff 68.1%); */
   background: #cbcbcb;
-  border-radius: 5px;
+  border-radius: 10px;
   margin:10px;
   display: flex;
   align-items: center;
@@ -297,9 +297,50 @@ margin-bottom: 20px;
   height: 40vh;
 }
 
-@media (max-width:768px){
-  .banner-container .banner .women{
-      display: none;
+@media (max-width: 768px) {
+  .banner-container .banner1 .women {
+    display: none;
   }
+  .banner-container .banner1 .shoe {
+    display: none;
+  }
+  .hero-insurence {
+    flex-direction: column;
+  }
+  .testimonial-row {
+    flex-direction: column;
+  }
+
+  .service-testimonial-row {
+    flex-direction: column;
+    margin-top: -300px;
+  }
+  .testimonial-col {
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-top: 45px;
+  }
+  .review-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .review-col {
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-top: 45px;
+  }
+
+  .service img{
+    height: 50%;
+    width: 50%;
+    margin-top: -80px;
+  }
+
+ 
+
 }
 /* banner ends */
