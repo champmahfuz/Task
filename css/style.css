@@ -56,6 +56,12 @@ body{
   color: rgba(128, 255, 0, 0.644);
 }
 
+.payment img {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 
 /* testimonial starts*/
 .testimonials{
